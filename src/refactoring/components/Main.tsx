@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import NavigationHeader from './NavigationHeader.tsx';
 import { CartPage } from './CartPage';
-import { AdminPage } from './AdminPage';
+import AdminPage from './AdminPage';
 
 const Main = () => {
   const [isAdmin, setIsAdmin] = useState(false);
